@@ -1,0 +1,43 @@
+/*Declaração de variáveis */
+:root{
+  --vermelho: #E50914;
+  --preto: #141414;
+}
+
+/*Reset básico*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--preto);
+  font-family:'Times New Roman', Times, serif
+}
+
+header .container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*Formatação da logo NETFLIX*/
+header .logo{
+  margin-left: 5px;
+  color: var(--vermelho);
+  font-family: 'Arial Black', Times;
+  font-size: 40px;
+}
+/*Formatação da barra de NAVEGAÇÃO*/
+header nav a{
+  text-decoration: none;
+  color: #AAA;
+  margin-right: 10px;
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
